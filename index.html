@@ -400,16 +400,29 @@
     <!-- ============================================================ -->
     <div id="welcomeOverlay" class="overlay-card">
         <div class="card-box">
-            <!-- SVG EDIFICIO como icono principal -->
+            <!-- SVG EDIFICIO BONITO con ventanas y detalles -->
             <span class="icon-svg">
-                <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="#0c0c22" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="4" y="2" width="16" height="20" rx="1" ry="1" />
-                    <line x1="8" y1="6" x2="16" y2="6" />
-                    <line x1="8" y1="10" x2="16" y2="10" />
-                    <line x1="8" y1="14" x2="16" y2="14" />
-                    <line x1="8" y1="18" x2="16" y2="18" />
-                    <path d="M12 2v20" />
-                    <path d="M2 22h20" />
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Cuerpo del edificio -->
+                    <rect x="3" y="4" width="18" height="18" rx="1" fill="#e8e4dd" stroke="#0c0c22" stroke-width="1.5" />
+                    <!-- Techo -->
+                    <path d="M2 4L12 0L22 4" stroke="#0c0c22" stroke-width="1.8" stroke-linejoin="round" fill="#d5d0c8" />
+                    <!-- Ventanas fila 1 -->
+                    <rect x="5.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="10.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="15.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <!-- Ventanas fila 2 -->
+                    <rect x="5.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="10.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="15.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <!-- Ventanas fila 3 -->
+                    <rect x="5.5" y="15.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="10.5" y="15.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <rect x="15.5" y="15.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.8" />
+                    <!-- Puerta -->
+                    <rect x="10" y="19" width="4" height="3" rx="0.5" fill="#0c0c22" stroke="#0c0c22" stroke-width="0.5" />
+                    <!-- Pomito de la puerta -->
+                    <circle cx="13.2" cy="20.5" r="0.4" fill="#f0ede8" />
                 </svg>
             </span>
             <h2>Finanzas para Conjuntos</h2>
@@ -437,15 +450,17 @@
         <!-- Barra superior -->
         <header class="top-bar">
             <div class="logo-brand">
-                <!-- Edificio pequeño en el logo -->
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0c0c22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="4" y="2" width="16" height="20" rx="1" ry="1" />
-                    <line x1="8" y1="6" x2="16" y2="6" />
-                    <line x1="8" y1="10" x2="16" y2="10" />
-                    <line x1="8" y1="14" x2="16" y2="14" />
-                    <line x1="8" y1="18" x2="16" y2="18" />
-                    <path d="M12 2v20" />
-                    <path d="M2 22h20" />
+                <!-- Edificio bonito en el logo -->
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="4" width="18" height="18" rx="1" fill="#e8e4dd" stroke="#0c0c22" stroke-width="1.2" />
+                    <path d="M2 4L12 0L22 4" stroke="#0c0c22" stroke-width="1.5" stroke-linejoin="round" fill="#d5d0c8" />
+                    <rect x="5.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="10.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="15.5" y="6.5" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="5.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="10.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="15.5" y="11" width="3" height="3" rx="0.5" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.6" />
+                    <rect x="10" y="19" width="4" height="3" rx="0.5" fill="#0c0c22" />
                 </svg>
                 Finanzas <span>Blog</span>
             </div>
@@ -457,7 +472,7 @@
             </nav>
         </header>
 
-        <!-- Hero con SVG de edificios y finanzas -->
+        <!-- Hero con SVG de edificios y gráfico financiero -->
         <section class="hero-section">
             <div class="hero-text">
                 <h1>Finanzas claras para <br />comunidades organizadas</h1>
@@ -466,17 +481,47 @@
                 </p>
             </div>
             <div class="hero-svg">
-                <svg width="180" height="180" viewBox="0 0 24 24" fill="none" stroke="#0c0c22" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="8" width="6" height="14" rx="0.5" />
-                    <rect x="9" y="4" width="6" height="18" rx="0.5" />
-                    <rect x="16" y="6" width="6" height="16" rx="0.5" />
-                    <path d="M2 22h20" />
-                    <circle cx="5" cy="14" r="1" fill="#0c0c22" />
-                    <circle cx="12" cy="10" r="1" fill="#0c0c22" />
-                    <circle cx="19" cy="12" r="1" fill="#0c0c22" />
-                    <path d="M5 18h2" stroke-width="1.5" />
-                    <path d="M12 16h2" stroke-width="1.5" />
-                    <path d="M19 18h2" stroke-width="1.5" />
+                <svg width="180" height="180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Edificio 1 -->
+                    <rect x="1" y="8" width="6" height="14" rx="0.8" fill="#e8e4dd" stroke="#0c0c22" stroke-width="1.2" />
+                    <rect x="2.5" y="10" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="4.5" y="10" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="2.5" y="13" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="4.5" y="13" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="3" y="19.5" width="2" height="2" rx="0.3" fill="#0c0c22" />
+                    
+                    <!-- Edificio 2 (más alto) -->
+                    <rect x="9" y="4" width="6" height="18" rx="0.8" fill="#d5d0c8" stroke="#0c0c22" stroke-width="1.2" />
+                    <rect x="10.5" y="6" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="12.5" y="6" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="10.5" y="9" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="12.5" y="9" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="10.5" y="12" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="12.5" y="12" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="11" y="19.5" width="2" height="2" rx="0.3" fill="#0c0c22" />
+                    
+                    <!-- Edificio 3 -->
+                    <rect x="17" y="6" width="6" height="16" rx="0.8" fill="#e8e4dd" stroke="#0c0c22" stroke-width="1.2" />
+                    <rect x="18.5" y="8" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="20.5" y="8" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="18.5" y="11" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="20.5" y="11" width="1.5" height="2" rx="0.3" fill="#a8d8ea" stroke="#0c0c22" stroke-width="0.5" />
+                    <rect x="19" y="19.5" width="2" height="2" rx="0.3" fill="#0c0c22" />
+                    
+                    <!-- Línea de tendencia financiera (gráfico) -->
+                    <polyline points="1,20 5,16 9,14 13,10 17,12 21,8" stroke="#0c0c22" stroke-width="1.8" fill="none" stroke-linejoin="round" />
+                    <!-- Puntos en la línea -->
+                    <circle cx="1" cy="20" r="1.2" fill="#0c0c22" />
+                    <circle cx="5" cy="16" r="1.2" fill="#0c0c22" />
+                    <circle cx="9" cy="14" r="1.2" fill="#0c0c22" />
+                    <circle cx="13" cy="10" r="1.2" fill="#0c0c22" />
+                    <circle cx="17" cy="12" r="1.2" fill="#0c0c22" />
+                    <circle cx="21" cy="8" r="1.2" fill="#0c0c22" />
+                    
+                    <!-- Monedas -->
+                    <circle cx="6" cy="21" r="1.5" fill="#f5c542" stroke="#0c0c22" stroke-width="0.5" />
+                    <circle cx="14" cy="21" r="1.5" fill="#f5c542" stroke="#0c0c22" stroke-width="0.5" />
+                    <circle cx="22" cy="21" r="1.5" fill="#f5c542" stroke="#0c0c22" stroke-width="0.5" />
                 </svg>
             </div>
         </section>
